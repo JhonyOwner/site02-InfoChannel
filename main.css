@@ -1,0 +1,178 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header,
+section h2 {
+    font-family: "Anton SC", sans-serif;
+    font-style: normal;
+}
+
+section .container {
+    font-family: "Baskervville SC", serif;
+    font-style: normal;
+}
+
+header {
+    padding: 10px 0;
+    background-color: #0051ff;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+header nav li {
+    display: inline;
+    margin: 16px;
+    font-size: 25px;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: #8400ff;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1750px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,          
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section img {
+    height: 500px;
+    margin-right: 32px;
+    border-radius: 10px;
+}
+
+section .container {
+    align-items: self-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #010b6b;
+}
+
+section h2 {
+    margin-bottom: 12px;
+    color: #0051ff;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+section p {
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+#contato .container {
+    display: block;
+}
+
+.interacao {
+    display: flex;
+    justify-content: flex-start;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: #010b6b;
+    color: #ffffff;
+    width: 150px;
+    display: inline;
+    margin-left: 4px;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:#8400ff;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #0051ff;
+}
+
+#contato .container h2 {
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #0051ff;
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: small;
+    text-align: center;
+}
+
+.lista_de_marcas img {
+    height: 36px;
+    margin-top: 20px;
+}
+
+.lista_de_marcas li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social_icons img{
+    height: 40px;
+}
+
+.social_icons li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social_icons li a {
+    text-decoration: none;
+}
+
+.interacao h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.imgs {
+    margin-left: 100px;
+}
+
+.imgs h3 {
+    margin-left: 34px;
+    margin-bottom: 10px;
+}
+
+.img_solo img {
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: -160px;
+    width: 850px;
+}
